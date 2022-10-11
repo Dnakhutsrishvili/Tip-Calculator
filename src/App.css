@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+.font-face-gm {
+  font-family: "Space_Mono";
+}
+html {
+  font-size: 62.5%;
+}

@@ -1,0 +1,84 @@
+.conteiner {
+  height: 25.7rem;
+  width: 32.7rem;
+  background: #00474b;
+  border-radius: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2.2rem;
+  margin-top: 1.2rem;
+}
+.amount {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  /* identical to box height */
+  margin: 0;
+  color: #ffffff;
+}
+.person {
+  margin: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.3rem;
+  line-height: 1.9rem;
+
+  color: #7f9d9f;
+}
+.sum {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 4.7rem;
+  text-align: right;
+  letter-spacing: -0.666667px;
+
+  color: #26c2ae;
+  margin: 0;
+}
+.flexFirst {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+.flexSecond {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.btn {
+  height: 4.8rem;
+  width: 28.1rem;
+  background: #26c2ae;
+  border-radius: 0.5rem;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #00474b;
+  border: none;
+  outline: none;
+}
+.btn:hover {
+  background: #9fe8df;
+}
+@media only screen and (min-width: 950px) {
+  .conteiner {
+    height: 41.7rem;
+    width: 41.3rem;
+    margin-top: 0;
+    border-radius: 1.5rem;
+  }
+  .btn {
+    margin-top: 122px;
+  }
+}

@@ -1,0 +1,62 @@
+.header {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  /* identical to box height */
+
+  color: #5e7a7d;
+}
+.btnBox {
+  display: grid;
+  grid-template-columns: 14.6rem 14.6rem;
+  grid-row: auto auto;
+  grid-column-gap: 1.8rem;
+  grid-row-gap: 1.8rem;
+}
+.custum {
+  outline: none;
+  border: none;
+  background: #f3f9fa;
+  border-radius: 0.5rem;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+  /* identical to box height */
+  padding-right: 1.7rem;
+  text-align: right;
+  caret-color: #26c2ae;
+  color: #547878;
+}
+.custum::-webkit-outer-spin-button,
+.custum::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.custum::placeholder {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+
+  text-align: right;
+  opacity: 1;
+
+  color: #547878;
+}
+.custum:focus {
+  outline: 2px solid #26c2ae;
+}
+.percentParent {
+  margin: 0;
+  margin-left: -8px;
+  margin-top: 3rem;
+}
+@media only screen and (min-width: 950px) {
+  .btnBox {
+    grid-template-rows: auto auto;
+    grid-template-columns: 117px 117px 117px;
+  }
+}
